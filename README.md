@@ -9,6 +9,8 @@ def test():
     for _ in range(0,10000000):
         pass
 
->>"Elapsed time: 0.16048717498779297"
+test()
+
+>>> Elapsed time: 0.16048717498779297
 
 ```
