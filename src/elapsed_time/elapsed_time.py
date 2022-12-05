@@ -1,6 +1,6 @@
 import time
 
-def elapsed_time(func):
+def elapsed(func):
     def wraper(*args, **kwarg):
         start = time.time()
         func(*args, **kwarg)

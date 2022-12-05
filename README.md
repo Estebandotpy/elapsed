@@ -1,14 +1,14 @@
-# Timelapse
+# elapsed_time
 
 ```Python
 
-from Timelapse import Timelaps
+from elapsed_time import elapsed
 
-@Timelaps.timelpase
+@elapsed
 def test():
-    for _ in range(0,1000):
+    for _ in range(0,10000000):
         pass
 
->>
+>>"Elapsed time: 0.16048717498779297"
 
 ```

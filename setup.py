@@ -3,14 +3,14 @@ from setuptools import setup
 readme = open(".\README.md", "r")
 
 setup(
-    name='elapsed',
+    name='elapsed_time',
     version='0.1',
     description='Measure time of excec',
     long_description=readme.read(),
     long_description_content_type="text/markdown",
     author='Esteban Osorio',
     author_email='estebandmp17@gmail.com',
-    url='https://github.com/Estebandotpy/Timelaps',
+    url='https://github.com/Estebandotpy/elapsed_time',
     keywords=['testing', 'example'],
     classifiers=[],
     license='MIT',

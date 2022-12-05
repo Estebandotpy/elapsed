@@ -1,1 +1,0 @@
-# Timelaps helps to mesure excec time of your´s functions
