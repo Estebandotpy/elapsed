@@ -1,9 +1,13 @@
 import time
 
 def elapsed(func):
-    def wraper(*args, **kwarg):
+    def wrapper(*args, **kwarg):
         start = time.time()
-        func(*args, **kwarg)
+        exec = func(*args, **kwarg)
         end = time.time()
-        print(f'Elapsed time: {end - start}')
-    return wraper
+        func_name = func.__name__
+        rtime = end - start
+        unit = 'seconds' if rtime < 60 else 'minutes'
+        print(f'Elapsed time of {func_name} function was: {rtime} {unit}')
+        return exec
+    return wrapper
